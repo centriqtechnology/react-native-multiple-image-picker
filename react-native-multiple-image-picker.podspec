@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #s.resources = 'ios/MultipleImagePicker.bundle'
 
   s.dependency 'React-Core'
-  s.dependency 'TLPhotoPicker', '2.1.9'
+  s.dependency 'TLPhotoPicker', :git => 'https://github.com/centriqtechnology/TLPhotoPicker', :branch => 'master'
   s.dependency 'CropViewController', '2.6.1'
       
 end
